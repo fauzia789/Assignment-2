@@ -1,124 +1,227 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
-   --primary-color:rgb(230, 83, 60);
-   background-color: rgb(28, 25, 25);
+    --primary-color: rgb(230, 83, 60);
+   
+  
 }
-.inter{
+body{
+    background: rgb(28, 25, 25);
+}
+
+.inter {
     font-family: "Inter", sans-serif;
     /* font-style: normal; */
-  }
-  
-header{
-
-    padding: 58px 190px;
 }
 
-.header-title{
+header {
+
+    margin: 58px 190px;
+}
+
+.header-title {
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
-.header-li ul{
+.header-li ul {
     display: flex;
-gap: 50px;
+    gap: 50px;
 }
-.header-li li{
+
+.header-li li {
     list-style: none;
- align-content: center;
-color: white;
+    align-content: center;
+    color: white;
 }
-.home{
+
+.home {
     border: 1px solid;
     border-radius: 40px;
     padding: 10px 20px;
-   background-color: var(--primary-color);
-   color: white;
+    background-color: var(--primary-color);
+    color: white;
 }
-.header-item{
+
+.header-item {
     display: flex;
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.shape{
+.shape {
     font-family: 'Miama', sans-serif;
 
 
 }
-button{
+
+button {
     margin-top: 20px;
-   
+
 }
-.general-button{
+
+.general-button {
     background-color: var(--primary-color);
     color: white;
-  font-size: 16px;
+    font-size: 16px;
     padding: 10px 40px;
     border: none;
     border-radius: 30px;
 }
-.button2{
+
+.button2 {
     background-color: black;
     color: white;
-  font-size: 16px;
+    font-size: 16px;
     padding: 10px 35px;
     border: 1px solid white;
     border-radius: 30px;
 }
-.circle{
+
+.circle {
     display: flex;
-   gap: 10px;
-  position: relative;
-  top: -250px;
-  right: 80px;
+    gap: 10px;
+    position: relative;
+    top: -250px;
+    right: 80px;
 
 }
-.circle1{
+
+.circle1 {
     position: relative;
     top: -450px;
     left: 240px;
-   
+
 }
-.free{
+
+.free {
     padding: 25px 15px;
     border-radius: 20px;
-  
+ background-color: rgb(34, 34, 34, 0.8);
     width: 50%;
     color: white;
-    
+
 }
-.free h1{
+
+.free h1 {
     font-size: 18px;
     font-weight: 700;
 }
-.free p{
+
+.free p {
     font-size: 16px;
     font-weight: 300;
     opacity: 0.5;
 }
-.round{
+
+.round {
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     padding: 20px;
 }
-.body{
-    padding: 58px 190px;
-    
+
+.body {
+    margin: 58px 190px;
+
 }
-.body-content{
-    
+
+.body-content {
+    text-align: center;
 }
-.body-content h1{
+
+.body-content h1 {
     font-size: 58px;
     color: white;
-    
+
 }
-.body-content p{
+
+.body-content p {
     font-size: 20px;
     color: white;
     opacity: 0.5;
+    margin-top: 10px;
+}
+
+.body-parts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.body1 h1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.body1 p {
+    font-size: 16px;
+    opacity: 0.7;
+    color: white;
+    margin-top: 10px;
+}
+
+.body-parts img {
+    border-radius: 50%;
+}
+
+.run {
+    margin: 58px 190px;
+border-radius: 20px;
+background-color: rgb(34, 34, 34);
+}
+
+.run-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    padding: 50px;
+
+
+   
+}
+
+.run-title h1 {
+    color: white;
+    font-size: 46px;
+    margin-top: 20px;
+}
+
+.run-title p {
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.run-content img {
+    width: 366px;
+    border-radius: 20px;
+}
+.bmi{
+    margin: 58px 190px;
+    text-align: center; 
+}
+.bmi-content{
+  
+    text-align: start;
+margin: 30px 120px;
+}
+.bmi h1 {
+    font-size: 35px;
+    color: white;
+
+}
+
+.bmi p {
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+    margin-top: 10px;
 }
