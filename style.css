@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   --primary-color:rgb(230, 83, 60);
+   background-color: rgb(28, 25, 25);
+}
+.inter{
+    font-family: "Inter", sans-serif;
+    /* font-style: normal; */
+  }
+  
+header{
+
+    padding: 58px 190px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header-li ul{
+    display: flex;
+gap: 50px;
+}
+.header-li li{
+    list-style: none;
+ align-content: center;
+color: white;
+}
+.home{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 10px 20px;
+   background-color: var(--primary-color);
+   color: white;
+}
+.header-item{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+
+
+}
+button{
+    margin-top: 20px;
+   
+}
+.general-button{
+    background-color: var(--primary-color);
+    color: white;
+  font-size: 16px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+}
+.button2{
+    background-color: black;
+    color: white;
+  font-size: 16px;
+    padding: 10px 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.circle{
+    display: flex;
+   gap: 10px;
+  position: relative;
+  top: -250px;
+  right: 80px;
+
+}
+.circle1{
+    position: relative;
+    top: -450px;
+    left: 240px;
+   
+}
+.free{
+    padding: 25px 15px;
+    border-radius: 20px;
+  
+    width: 50%;
+    color: white;
+    
+}
+.free h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.free p{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+.round{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 20px;
+}
+.body{
+    padding: 58px 190px;
+    
+}
+.body-content{
+    
+}
+.body-content h1{
+    font-size: 58px;
+    color: white;
+    
+}
+.body-content p{
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;
+}
