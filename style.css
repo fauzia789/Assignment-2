@@ -225,3 +225,37 @@ margin: 30px 120px;
     opacity: 0.5;
     margin-top: 10px;
 }
+.bmi-cal h1{
+    font-size: 24px;
+    margin-right: 524px;
+}
+.tab{
+    margin-top: 50px;
+  margin-left: 150px;
+}
+th{
+    color: white;
+}
+td{
+    color: gray;
+}
+table , td, th{
+    border: 1px solid white;
+border-collapse: collapse;
+padding: 10px 20px;
+}
+.bmi-tb{
+    display: grid;
+    grid-template-columns: 1fr,2;
+    
+}
+.item1{
+   grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: blue;
+}
