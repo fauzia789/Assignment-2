@@ -110,68 +110,102 @@
       <section class="run">
         <div class="run-content">
           <div class="run-title">
-            <h1>Run an Extra <br> Mile Easily</h1>
+            <h1>
+              Run an Extra <br />
+              Mile Easily
+            </h1>
             <p>
-              We believe fitness should be accessible to everyone, <br> everywhere,
-              regardless of income or access to a gym. <br> With hundreds of
-              professional workouts.
+              We believe fitness should be accessible to everyone, <br />
+              everywhere, regardless of income or access to a gym. <br />
+              With hundreds of professional workouts.
             </p>
             <button class="general-button">Join Now</button>
           </div>
           <div>
-            <img src="./images/run.jpg" alt="" srcset="">
+            <img src="./images/run.jpg" alt="" srcset="" />
           </div>
         </div>
       </section>
       <section class="bmi">
-    <div class="bmi-content">
-      <h1>BMI Calculator</h1>
-      <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-    </div>
-    <div class="bmi-math">
-  <div class="bmi-cal">
-<h1>BMI Calculator Chart</h1>
-<div class="tab">
-  <table><tr>
-    <th>BMI </th>
-    <th>Weight Status </th>
-  </tr>
-<tr>
-  <td>Below 18.5</td>
-  <td>Underweight</td>
-</tr>
-<tr>
-  <td>18.5-24.9</td>
-  <td>Healthy</td>
-</tr>
-<tr>
-  <td>25.0-29.9</td>
-  <td>Overweight</td>
-</tr>
-<tr>
-  <td>30.0-Above</td>
-  <td>Obese</td>
-</tr>
-
-</table>
-  
-  
-</div>
-  </div>
-  <div class="bmi-chart">
-    <h1>Calculate Your BMI</h1>
-    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-    <div class="bmi-tb">
-    <div class="item1">2</div>
-    <div class="item2">7</div>
-    <div class="item1">3</div>
-    <div class="item1">4</div>
-    <div class="item1">3`</div>
-    <div class="item1">3</div>
-    </div>
-  </div>
-    </div>
-      </section>
+        <div class="bmi-content">
+            <h1>BMI Calculator</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <div class="bmi-math">
+            <div class="bmi-cal">
+                <h1>BMI Calculator Chart</h1>
+                <table>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bmi-chart">
+                <h1>Calculate Your BMI</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <form class="bmi-form">
+                    <div class="inline">
+                      <label for="height">
+                         <div class="input-group">
+                            <input type="number" id="height" name="height" placeholder="Height (cm)" required>
+                        </div></label>
+                        <label for="weight">
+                          <div class="input-group">
+                            <input type="number" id="weight" name="weight" placeholder="Weight (kg)" required>
+                        </div>
+                      </label>
+                    </div>
+        
+                    
+                    <div class="inline">
+                      <label for="age">
+                        <div class="input-group">
+                            <input type="number" id="age" name="age" placeholder="Age " required>
+                        </div>
+                      </label>
+                        <label for="sex">
+                          <div class="input-group">
+                            <input type="number" id="sex" name="sex" placeholder="Sex" required>
+                        </div>
+                      </label>
+                    </div>
+        
+                    <label for="activity"></label>
+                    <select id="activity" name="activity" required>
+                        <option value="sedentary" >Sedentary (little or no exercise)</option>
+                        <option value="light">Lightly active (light exercise 1-3 days/week)</option>
+                        <option value="moderate">Moderately active (moderate exercise 3-5 days/week)</option>
+                        <option value="active">Very active (hard exercise 6-7 days a week)</option>
+                    </select>
+        
+                    <button type="submit">Calculate</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
     </main>
   </body>
 </html>

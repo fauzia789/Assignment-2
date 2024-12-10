@@ -204,58 +204,156 @@ background-color: rgb(34, 34, 34);
     width: 366px;
     border-radius: 20px;
 }
-.bmi{
+
+.bmi {
     margin: 58px 190px;
-    text-align: center; 
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
-.bmi-content{
-  
-    text-align: start;
-margin: 30px 120px;
+
+
+.bmi-content {
+    text-align: center;
+    margin-bottom: 30px;
 }
+
 .bmi h1 {
     font-size: 35px;
     color: white;
-
 }
 
 .bmi p {
     font-size: 16px;
     color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     margin-top: 10px;
 }
-.bmi-cal h1{
-    font-size: 24px;
-    margin-right: 524px;
+
+
+.bmi-math {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+
 }
-.tab{
-    margin-top: 50px;
-  margin-left: 150px;
+
+
+.bmi-cal, .bmi-chart {
+    flex: 1 1;
+    padding: 20px;
+
 }
-th{
+
+
+table{
+    margin-top: 30px;
+}
+
+th {
     color: white;
 }
-td{
+
+td {
     color: gray;
 }
-table , td, th{
+
+table,
+td,
+th {
     border: 1px solid white;
-border-collapse: collapse;
-padding: 10px 20px;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    width: 100%;
 }
-.bmi-tb{
-    display: grid;
-    grid-template-columns: 1fr,2;
+
+
+.bmi-chart p {
+    margin-bottom: 20px;
+    color: white;
+    opacity: 0.8;
     
 }
-.item1{
-   grid-column-start: 1;
-    grid-column-end: 2;
-    background-color: blue;
+
+
+.bmi-form { 
+    display: flex;
+    flex-direction: column;
+  gap: 5px;
 }
-.item2{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    background-color: blue;
+
+
+.bmi-form label {
+    font-size: 16px;
+    color: white;
+   
+}
+
+.bmi-form input,
+.bmi-form select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    width: 100%;
+}
+#activity{
+   opacity: 0.3;
+   color: lightslategray;
+}
+#weight{
+    margin-right: 43px;
+    width: calc(100% - 13px);
+    margin-top: 5px;
+    opacity: 0.3;
+}
+#height{
+    margin-right: 30px;
+    margin-top: 5px;
+    opacity: 0.3;
+    
+}
+#sex{
+    margin-right: 43px;
+    width: calc(100% - 13px);
+    margin-top: 5px;
+    opacity: 0.3;
+}
+#age{
+    margin-right: 30px;
+    margin-top: 5px;
+    opacity: 0.3;
+}
+
+.bmi-form .inline {
+    display: flex;
+    justify-content:space-around;
+    gap: 30px;
+}
+
+.bmi-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+   width: 40%;
+}
+
+.bmi-form button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Additional Responsive Design (optional for mobile view) */
+@media (max-width: 768px) {
+    .bmi-form {
+        width: 100%; /* Make the form full width on smaller screens */
+    }
+
+    .bmi-form .inline {
+        flex-direction: column; /* Stack input fields vertically on smaller screens */
+        gap: 10px; /* Adjust spacing */
+    }
 }
